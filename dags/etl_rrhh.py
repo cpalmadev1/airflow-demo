@@ -12,7 +12,6 @@ default_args = {
 # Funciones que simulan cada etapa del ETL
 def extraer():
     print("Extrayendo archivo CSV de RRHH...") 
-    print("Fecha de ejecución:", datetime.now())  # línea nueva
     datos = [
         {'id': 1, 'nombre': 'Juan', 'sueldo': 500000},
         {'id': 2, 'nombre': 'Maria', 'sueldo': None},   # dato inválido

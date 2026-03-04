@@ -34,7 +34,7 @@ with DAG(
     dag_id='etl_rrhh',
     default_args=default_args,
     description='Pipeline ETL de recursos humanos',
-    schedule_interval='@daily',
+    schedule='@daily',
     start_date=datetime(2024, 1, 1),
     catchup=False,
     tags=['rrhh', 'etl']
